@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pago Ágil — Agilizador Tecnológico</title>
+  <meta name="description" content="Pago Ágil: transferencias, pagos de servicios, recargas y corresponsalía en Cali, Pasto y Bogotá. Rápido, seguro y cerca de ti.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <img src="logo-pago-agil.png" alt="Pago Ágil" style="filter: brightness(0) invert(1);" onerror="this.style.display='none'; document.querySelector('.nav-logo-text').style.display='flex'">
+    <span class="nav-logo-text" style="display:none; font-family:'Sora',sans-serif; font-weight:800; font-size:18px; color:white;">Pago <span style="color:#F5A623">Ágil</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#como-funciona">¿Cómo funciona?</a></li>
+    <li><a href="#ciudades">Ciudades</a></li>
+    <li><a href="#corresponsal">Corresponsal</a></li>
+    <li><a href="#contacto" class="nav-cta">Contáctanos</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#servicios">Servicios</a>
+  <a href="#como-funciona">¿Cómo funciona?</a>
+  <a href="#ciudades">Ciudades</a>
+  <a href="#corresponsal">Ser Corresponsal</a>
+  <a href="#contacto" class="mobile-cta">📲 Contáctanos</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-circle hero-circle-1"></div>
+    <div class="hero-circle hero-circle-2"></div>
+    <div class="hero-dots"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge"><span>⚡</span> Agilizador Tecnológico</div>
+    <h1>Pagos rápidos,<br>seguros y <em>cerca de ti</em></h1>
+    <p class="hero-sub">Transferencias, pagos de servicios, recargas y corresponsalía bancaria en Cali, Pasto y Bogotá. Sin complicaciones, sin filas.</p>
+    <div class="hero-btns">
+      <a href="#servicios" class="btn-primary">Ver servicios</a>
+      <a href="#corresponsal" class="btn-outline">Ser corresponsal</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Ciudades</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">24/7</div>
+        <div class="stat-label">Disponible</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Digital</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CITIES STRIP -->
+<div class="cities-strip">
+  <div class="cities-inner">
+    <span class="city-tag">📍 Cali</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">📍 Pasto</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">📍 Bogotá</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">⚡ Transferencias</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">💡 Pagos de Servicios</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">📱 Recargas</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">🏦 Corresponsalía</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">📍 Cali</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">📍 Pasto</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">📍 Bogotá</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">⚡ Transferencias</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">💡 Pagos de Servicios</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">📱 Recargas</span>
+    <span class="city-dot"></span>
+    <span class="city-tag">🏦 Corresponsalía</span>
+    <span class="city-dot"></span>
+  </div>
+</div>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="services-header">
+    <span class="section-label">Lo que ofrecemos</span>
+    <h2 class="section-title">Todos los servicios<br>en <em>un solo punto</em></h2>
+    <p class="section-sub">Accede a servicios financieros y pagos digitales desde cualquier punto Pago Ágil cerca de ti.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">⚡</div>
+      <h3>Transferencias</h3>
+      <p>Envía y recibe dinero de forma inmediata entre cuentas bancarias y billeteras digitales. Rápido y seguro.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">💡</div>
+      <h3>Pago de Servicios</h3>
+      <p>Paga tu energía, agua, gas, internet, televisión y más sin moverte del barrio. Sin filas.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">📱</div>
+      <h3>Recargas</h3>
+      <p>Recarga cualquier operador: Claro, Movistar, Tigo, WOM y más. Instantáneo y sin costo adicional.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏦</div>
+      <h3>Corresponsalía Bancaria</h3>
+      <p>Depósitos, retiros y consultas bancarias sin ir a una sucursal. Disponible en nuestros puntos aliados.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🎟️</div>
+      <h3>Pines y Tarjetas</h3>
+      <p>Compra pines de recarga, tarjetas de regalo y accesos digitales para múltiples plataformas.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">📋</div>
+      <h3>Trámites y Certificados</h3>
+      <p>Pago de multas, impuestos, SOAT, y otros trámites del estado desde nuestros puntos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section class="how-section" id="como-funciona">
+  <div class="how-inner">
+    <span class="section-label">Proceso simple</span>
+    <h2 class="section-title">¿Cómo <em>funciona</em>?</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h4>Encuentra un punto Pago Ágil</h4>
+          <p>Ubicamos nuestros puntos en tiendas de barrio, papelerías y comercios aliados en Cali, Pasto y Bogotá para que siempre tengas uno cerca.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h4>Selecciona el servicio</h4>
+          <p>Dile al corresponsal qué necesitas: pagar un servicio, hacer una transferencia, recargar el celular o realizar un trámite bancario.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h4>Realiza el pago</h4>
+          <p>Paga en efectivo o con tu tarjeta. Nuestro sistema procesa la transacción de forma inmediata y segura.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h4>Recibe tu comprobante</h4>
+          <p>Obtén tu soporte de pago en papel o digital al instante. Sin esperas, sin complicaciones.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-section">
+  <div class="stats-row">
+    <div class="stat-block">
+      <div class="stat-block-num"><span class="counter" data-target="10" data-prefix="+" data-suffix="">+10</span></div>
+      <div class="stat-block-label">Puntos Activos</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-block-num"><span class="counter" data-target="3" data-prefix="" data-suffix="">3</span></div>
+      <div class="stat-block-label">Ciudades</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-block-num"><span class="counter" data-target="100" data-prefix="" data-suffix="%">100%</span></div>
+      <div class="stat-block-label">Transacciones Seguras</div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-block-num">24<span style="font-size:1.4rem;color:rgba(255,255,255,0.6)">/7</span></div>
+      <div class="stat-block-label">Disponible</div>
+    </div>
+  </div>
+</section>
+
+<!-- ALIADOS -->
+<section class="aliados-section">
+  <span class="section-label">Ecosistema financiero</span>
+  <h2 class="section-title">Bancos y plataformas <em>aliadas</em></h2>
+  <p class="aliados-sub">Operamos con las principales entidades financieras y operadores de Colombia.</p>
+  <div class="aliados-grid">
+    <div class="aliado-chip"><span class="aliado-icon">🏦</span> Bancolombia</div>
+    <div class="aliado-chip"><span class="aliado-icon">💜</span> Nequi</div>
+    <div class="aliado-chip"><span class="aliado-icon">🔴</span> Daviplata</div>
+    <div class="aliado-chip"><span class="aliado-icon">🏛️</span> Davivienda</div>
+    <div class="aliado-chip"><span class="aliado-icon">🏦</span> Banco de Bogotá</div>
+    <div class="aliado-chip"><span class="aliado-icon">🟠</span> Banco de Occidente</div>
+    <div class="aliado-chip"><span class="aliado-icon">🟢</span> Banco Agrario</div>
+    <div class="aliado-chip"><span class="aliado-icon">📱</span> Claro</div>
+    <div class="aliado-chip"><span class="aliado-icon">📱</span> Movistar</div>
+    <div class="aliado-chip"><span class="aliado-icon">📱</span> Tigo</div>
+    <div class="aliado-chip"><span class="aliado-icon">📱</span> WOM</div>
+    <div class="aliado-chip"><span class="aliado-icon">⚡</span> EPM</div>
+    <div class="aliado-chip"><span class="aliado-icon">💧</span> EMCALI</div>
+    <div class="aliado-chip"><span class="aliado-icon">🔵</span> ETB</div>
+  </div>
+</section>
+
+<!-- CIUDADES -->
+<section class="cities-section" id="ciudades">
+  <span class="section-label">Cobertura</span>
+  <h2 class="section-title">Presente en <em>3 ciudades</em></h2>
+  <div class="cities-cards">
+    <div class="city-card">
+      <span class="city-emoji">🌇</span>
+      <h3>Cali</h3>
+      <p>Presencia en múltiples comunas. El punto más cercano siempre está a pocos minutos.</p>
+      <span class="city-badge">Sede Principal</span>
+    </div>
+    <div class="city-card">
+      <span class="city-emoji">🏔️</span>
+      <h3>Pasto</h3>
+      <p>Atendiendo a los nariñenses con servicios financieros accesibles y cercanos.</p>
+      <span class="city-badge">Activo</span>
+    </div>
+    <div class="city-card">
+      <span class="city-emoji">🏙️</span>
+      <h3>Bogotá</h3>
+      <p>Red en expansión en la capital. Más puntos abriendo pronto en toda la ciudad.</p>
+      <span class="city-badge">En Expansión</span>
+    </div>
+  </div>
+</section>
+
+<!-- CORRESPONSAL -->
+<section class="corresponsal-section" id="corresponsal">
+  <div class="corresponsal-inner">
+    <div>
+      <span class="section-label">Oportunidad de negocio</span>
+      <h2 class="section-title">Conviértete en <em>Corresponsal</em> Pago Ágil</h2>
+      <p class="section-sub">Genera ingresos adicionales desde tu negocio. Fácil, sin inversión en equipos costosos y con respaldo tecnológico.</p>
+      <div class="corresponsal-features">
+        <div class="feature-item"><div class="feature-check">✓</div> Sin costo de afiliación</div>
+        <div class="feature-item"><div class="feature-check">✓</div> Capacitación incluida</div>
+        <div class="feature-item"><div class="feature-check">✓</div> Soporte técnico 24/7</div>
+        <div class="feature-item"><div class="feature-check">✓</div> Comisiones por cada transacción</div>
+        <div class="feature-item"><div class="feature-check">✓</div> Software fácil de usar</div>
+      </div>
+    </div>
+    <div class="corresponsal-card">
+      <h4>¿Qué necesitas para empezar?</h4>
+      <p>Solo algunos requisitos básicos y ya puedes comenzar a generar ingresos.</p>
+      <ul class="benefit-list">
+        <li>Un local comercial o negocio activo</li>
+        <li>Conexión a internet (WiFi o datos)</li>
+        <li>Smartphone o tablet</li>
+        <li>Cédula de ciudadanía</li>
+        <li>RUT o matrícula mercantil</li>
+      </ul>
+      <a href="https://wa.me/573246079259?text=Hola,%20quiero%20ser%20corresponsal%20de%20Pago%20Ágil" class="btn-primary" target="_blank" style="display:block; text-align:center;">
+        📲 Quiero ser corresponsal
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contact-section" id="contacto">
+  <div class="contact-inner">
+    <div class="contact-info">
+      <h2>¿Tienes alguna<br><em>pregunta?</em></h2>
+      <p>Estamos disponibles para ayudarte. Escríbenos por WhatsApp o llena el formulario y te respondemos pronto.</p>
+      <div class="contact-links">
+        <a href="https://wa.me/573246079259" class="contact-link" target="_blank">
+          <div class="contact-icon">💬</div>
+          WhatsApp
+        </a>
+        <a href="mailto:info@pagoagil.com.co" class="contact-link">
+          <div class="contact-icon">✉️</div>
+          info@pagoagil.com.co
+        </a>
+        <a href="tel:+573246079259" class="contact-link">
+          <div class="contact-icon">📞</div>
+          +57 324 607 9259
+        </a>
+        <a href="#" class="contact-link">
+          <div class="contact-icon">📍</div>
+          Cali, Valle del Cauca
+        </a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h3>Envíanos un mensaje</h3>
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" placeholder="Tu nombre completo">
+      </div>
+      <div class="form-group">
+        <label>Teléfono</label>
+        <input type="tel" placeholder="300 000 0000">
+      </div>
+      <div class="form-group">
+        <label>Ciudad</label>
+        <select>
+          <option value="">Selecciona tu ciudad</option>
+          <option>Cali</option>
+          <option>Pasto</option>
+          <option>Bogotá</option>
+          <option>Otra</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Mensaje</label>
+        <textarea placeholder="¿En qué podemos ayudarte?"></textarea>
+      </div>
+      <button class="form-submit" onclick="handleSubmit(this)">Enviar mensaje →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="logo-pago-agil.png" alt="Pago Ágil" style="filter: brightness(0) invert(1);" onerror="this.outerHTML='<p style=\'font-family:Sora,sans-serif;font-size:20px;font-weight:800;color:white;margin-bottom:14px\'>Pago <span style=\'color:#F5A623\'>Ágil</span></p>'">
+        <p>Agilizador tecnológico presente en Cali, Pasto y Bogotá. Pagos, transferencias y corresponsalía bancaria al alcance de todos.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Servicios</h5>
+        <a href="#servicios">Transferencias</a>
+        <a href="#servicios">Pagos de servicios</a>
+        <a href="#servicios">Recargas</a>
+        <a href="#servicios">Corresponsalía</a>
+      </div>
+      <div class="footer-col">
+        <h5>Empresa</h5>
+        <a href="#como-funciona">¿Cómo funciona?</a>
+        <a href="#ciudades">Ciudades</a>
+        <a href="#corresponsal">Ser corresponsal</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Pago Ágil. Todos los derechos reservados.</p>
+      <p>Hecho con <span>♥</span> en Colombia</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/573246079259?text=Hola,%20necesito%20información%20sobre%20Pago%20Ágil" class="whatsapp-float" target="_blank" title="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
