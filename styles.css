@@ -1,4 +1,4 @@
-/* ============================================================
+ /* ============================================================
    PAGO ÁGIL — Estilos principales
    Archivo: css/styles.css
    ============================================================ */
@@ -983,3 +983,4 @@ footer { background: #080F22; padding: 48px 5% 28px; }
   .hero-btns { flex-direction: column; align-items: center; }
   .btn-primary, .btn-outline { width: 100%; max-width: 280px; text-align: center; }
 }
+
