@@ -117,3 +117,4 @@ function animateCounter(el, target, suffix = '') {
     }
   }, 16);
 }
+
