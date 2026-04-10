@@ -683,6 +683,13 @@ section { padding: 80px 5%; }
   flex-shrink: 0;
 }
 
+.aliado-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
 /* ─── CIUDADES ─── */
 .cities-section { background: var(--gray-soft); }
 .cities-section .section-title { text-align: center; }
