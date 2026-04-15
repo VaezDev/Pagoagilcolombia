@@ -980,3 +980,94 @@ footer { background: #080F22; padding: 48px 5% 28px; }
   .hero-btns { flex-direction: column; align-items: center; }
   .btn-primary, .btn-outline { width: 100%; max-width: 280px; text-align: center; }
 }
+
+/* ─── PUNTOS DE ATENCIÓN (CARRUSEL) ─── */
+.puntos-section {
+  background: var(--white);
+  padding: 80px 0; /* Quitamos el padding lateral para que el carrusel toque los bordes */
+}
+
+.puntos-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0 5%;
+}
+
+.puntos-header .section-sub {
+  margin: 0 auto;
+}
+
+.carousel-container {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding: 10px 5% 40px 5%;
+  /* Esto hace la magia del efecto "imán" en celulares */
+  scroll-snap-type: x mandatory; 
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Oculta la barra en Firefox */
+}
+
+/* Oculta la barra de scroll en Chrome/Safari */
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-card {
+  flex: 0 0 320px; /* Ancho fijo de la tarjeta */
+  background: var(--white);
+  border: 1.5px solid #E8EDF8;
+  border-radius: var(--radius);
+  overflow: hidden;
+  scroll-snap-align: center; /* Punto de imán al centro */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.carousel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(13,27,62,0.1);
+}
+
+.punto-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: var(--navy-mid);
+}
+
+.punto-info {
+  padding: 24px;
+  text-align: left;
+}
+
+.punto-info .city-badge {
+  display: inline-block;
+  margin-bottom: 12px;
+  background: rgba(37,99,235,0.08);
+  color: var(--blue-light);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 50px;
+}
+
+.punto-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+
+.punto-info p {
+  font-size: 14px;
+  color: var(--gray-text);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* Ajuste específico para que en celulares la tarjeta ocupe casi toda la pantalla */
+@media (max-width: 480px) {
+  .carousel-card {
+    flex: 0 0 85vw;
+  }
+}
